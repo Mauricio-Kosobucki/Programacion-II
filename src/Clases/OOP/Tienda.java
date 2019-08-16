@@ -14,7 +14,9 @@ public class Tienda {
         int stock = Integer.parseInt(JOptionPane.showInputDialog("Stock:"));
 
         Movil celular = new Movil(tamaño, capacidad, precio, camara, tipo, stock);
+        Movil celular2= new Movil();
         System.out.println(celular.getInfo());
+        System.out.println(celular2.getInfo());
 
     }
 

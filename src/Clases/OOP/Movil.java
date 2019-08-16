@@ -15,7 +15,10 @@ public class Movil {
         this.stock = stock;
     }
 
-
+    public Movil(){
+        this.tamañoPantalla = 12;
+        this.tipo = "Huawey";
+    }
 
     public String getInfo(){
         return  ("Tamaño de pantalla: " +tamañoPantalla+ "\n" +
